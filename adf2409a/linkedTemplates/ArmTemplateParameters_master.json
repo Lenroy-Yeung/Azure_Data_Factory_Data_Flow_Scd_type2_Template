@@ -5,10 +5,10 @@
 		"factoryName": {
 			"value": "adf2409a"
 		},
-		"gendataset_connectionString": {
+		"AzureSqlDatabase1_connectionString": {
 			"value": ""
 		},
-		"AzureSqlDatabase1_connectionString": {
+		"gendataset_connectionString": {
 			"value": ""
 		},
 		"containerUri": {

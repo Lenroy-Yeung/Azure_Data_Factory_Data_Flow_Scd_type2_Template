@@ -7,13 +7,13 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "adf2409a"
 		},
-		"gendataset_connectionString": {
-			"type": "secureString",
-			"metadata": "Secure string for 'connectionString' of 'gendataset'"
-		},
 		"AzureSqlDatabase1_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureSqlDatabase1'"
+		},
+		"gendataset_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'gendataset'"
 		},
 		"containerUri": {
 			"type": "string",
@@ -42,11 +42,11 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
-					"gendataset_connectionString": {
-						"value": "[parameters('gendataset_connectionString')]"
-					},
 					"AzureSqlDatabase1_connectionString": {
 						"value": "[parameters('AzureSqlDatabase1_connectionString')]"
+					},
+					"gendataset_connectionString": {
+						"value": "[parameters('gendataset_connectionString')]"
 					}
 				}
 			},
